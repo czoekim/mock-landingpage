@@ -1,0 +1,163 @@
+body {
+  font: 15px/1.5 Quicksand, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  color: #355c7d;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin :0;
+  padding: 0;
+}
+
+.dark {
+  padding: 15px;
+  border: #355c7d 0.5px solid;
+  border-radius: 25px;
+  color: #355c7d;
+  margin: 20px auto;
+}
+
+/* Header */
+header.home-page{
+  color: #ffffff;
+  padding-top:30px;
+  min-height: 600px;
+  background: url('../img/nightsky.jpg') no-repeat 0 -200px;
+  background-size: cover;
+}
+
+header.nav-bar{
+  color: #ffffff;
+  paddin-top: 30px;
+  min-height: 75px;
+  background: url('../img/nightsky.jpg') no-repeat 0 -200px;
+  background-size: cover;
+}
+
+header a {
+  color: #f0f0f0f0;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+header #branding.nav-logo h1 {
+  margin-top: 15px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header.nav-bar nav {
+  margin-top:25px;
+}
+
+header .highlight,
+header .current a {
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #ffffff;
+}
+
+header .welcome {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+header .welcome p {
+  font-size: 20px;
+}
+
+.more_button {
+  color: #ffffff;
+  font-size: 12px;
+  border: #ffffff dashed 0.5px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+}
+
+/* Boxes */
+#boxes {
+  margin-top: 15px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 100px;
+}
+
+#boxes .box h3 {
+  text-align: center;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+}
+
+article#main-col {
+  float:left;
+  width: 60%;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+#work-col {
+  width: 65%;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 175px;
+}
+
+#in-progress {
+  width: 350px;
+  margin: 0;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
